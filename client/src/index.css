@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-blue: #00BFFF;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-red: #C62828;
+  --color-softred: #D21F3C;
+  --color-darkred: #a51818;
+  --color-middlegrey: #2a2a2a;
+  
+  --font-flavors: 'Flavors';
+  --font-prompt: 'Prompt';
+}
+
+* {
+  font-family: "Prompt", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #787777 #1e1e1e1e;
+}
+
+body {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* up down btn */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
