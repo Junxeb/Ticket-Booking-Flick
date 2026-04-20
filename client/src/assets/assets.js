@@ -35,23 +35,23 @@ export const flickTrailers = [
 
 // รายชื่อนักแสดง
 const flickCastsData = [
-    { "name": "Jeff Satur", "profile_path": "https://s.isanook.com/jo/0/ud/494/2472073/338608755_1168277337214118_68.jpg?ip/resize/w728/q80/jpg", },
-    { "name": "Engfa Waraha", "profile_path": "https://s.isanook.com/ca/0/ui/282/1412299/fa_engfa8-2022-08-08-10-47-Cg--XAqvZip_5_5-298078074_623251805788718_3925717024273261807_n.jpg", },
-    { "name": "Sofia Carson", "profile_path": "https://wallpapercat.com/w/full/2/e/1/454356-3840x2160-desktop-4k-sofia-carson-background-photo.jpg", },
-    { "name": "Nicholas Galitzine", "profile_path": "https://image.tmdb.org/t/p/w500/hG4rH7eBMs117746bBOd8fUa4PA.jpg", },
-    { "name": "Billkin Putthipong", "profile_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0WkNvnaIl4O050te3iNFjdVPmRNGdoSEa1t4uq8piVRCtpBfa52c9ZRYOxcvvcQKXYCNI7bmXXejc-Y43EurAjbs98VIyrPcbn0vVBA&s=10", },
-    { "name": "Will Smith", "profile_path": "https://t1.blockdit.com/photos/2019/12/5e057da5d458c00d0155d9aa_800x0xcover_Q9KTEwIX.jpg", },
-    { "name": "Martin Lawrence", "profile_path": "https://m.media-amazon.com/images/M/MV5BMTQ4NzIzMDAxMF5BMl5BanBnXkFtZTcwMDIyMTI2MQ@@._V1_FMjpg_UX1000_.jpg", },
-    { "name": "Keng Harit", "profile_path": "https://cdn.tatlerasia.com/tatlerasia/i/2025/01/11115057-keep-control_cover_1080x1350.jpg", },
-    { "name": "Usha Seamkhum", "profile_path": "https://i0.wp.com/marketeeronline.co/wp-content/uploads/2024/04/IMG_0250.jpg?resize=616%2C411&ssl=1", },
-    { "name": "Greg Hsu", "profile_path": "https://www.iqilin.com/wp-content/uploads/2024/02/%E8%A8%B1%E5%85%89%E6%BC%A2-Greg-Hsu.jpg", },
-    { "name": "Kiyohara Kaya", "profile_path": "https://i.mydramalist.com/QJYpx5_5c.jpg", },
-    { "name": "Byeon Woo Seok", "profile_path": "https://s.isanook.com/mv/0/ud/26/131745/438224527_762686105975714_584.jpg?ip/resize/w728/q80/jpg", },
-    { "name": "Kim You Jung", "profile_path": "https://kenh14cdn.com/203336854389633024/2021/9/2/photo-1-1630596330808760212833.jpg", },
-    { "name": "Stephen Lang", "profile_path": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Stephen_Lang_2014.jpg", },
-    { "name": "Jane Levy", "profile_path": "https://media.vanityfair.com/photos/60c3bd798d8df3ba663e2c58/1:1/w_1333,h_1333,c_limit/Jane_Levy-Interview-Tout.jpg", },
-    { "name": "Dylan Minnette", "profile_path": "https://image.tmdb.org/t/p/w500/wsjLAz2bDHqvV5x1fMF0VEQm3OO.jpg", },
-    { "name": "Daniel Zovatto", "profile_path": "https://image.tmdb.org/t/p/w500/gV0qvvMrNPXjDfsjgzLNNayaemj.jpg", }
+    { "name": "Milla Jovovich", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
+    { "name": "Dave Bautista", "profile_path": "https://image.tmdb.org/t/p/original/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg", },
+    { "name": "Arly Jover", "profile_path": "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg", },
+    { "name": "Amara Okereke", "profile_path": "https://image.tmdb.org/t/p/original/nTSPtzWu6deZTJtWXHUpACVznY4.jpg", },
+    { "name": "Fraser James", "profile_path": "https://image.tmdb.org/t/p/original/mGAPQG2OKTgdKFkp9YpvCSqcbgY.jpg", },
+    { "name": "Deirdre Mullins", "profile_path": "https://image.tmdb.org/t/p/original/lJm89neuiVlYISEqNpGZA5kTAnP.jpg", },
+    { "name": "Sebastian Stankiewicz", "profile_path": "https://image.tmdb.org/t/p/original/hLN0Ca09KwQOFLZLPIEzgTIbqqg.jpg", },
+    { "name": "Tue Lunding", "profile_path": "https://image.tmdb.org/t/p/original/qY4W0zfGBYzlCyCC0QDJS1Muoa0.jpg", },
+    { "name": "Jacek Dzisiewicz", "profile_path": "https://image.tmdb.org/t/p/original/6Ksb8ANhhoWWGnlM6O1qrySd7e1.jpg", },
+    { "name": "Ian Hanmore", "profile_path": "https://image.tmdb.org/t/p/original/yhI4MK5atavKBD9wiJtaO1say1p.jpg", },
+    { "name": "Eveline Hall", "profile_path": "https://image.tmdb.org/t/p/original/uPq4xUPiJIMW5rXF9AT0GrRqgJY.jpg", },
+    { "name": "Kamila Klamut", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
+    { "name": "Caoilinn Springall", "profile_path": "https://image.tmdb.org/t/p/original/uZNtbPHowlBYo74U1qlTaRlrdiY.jpg", },
+    { "name": "Jan Kowalewski", "profile_path": "https://image.tmdb.org/t/p/original/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg", },
+    { "name": "Pawel Wysocki", "profile_path": "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg", },
+    { "name": "Simon Lööf", "profile_path": "https://image.tmdb.org/t/p/original/cbZrB8crWlLEDjVUoak8Liak6s.jpg", },
+    { "name": "Tomasz Cymerman", "profile_path": "https://image.tmdb.org/t/p/original/nTSPtzWu6deZTJtWXHUpACVznY4.jpg", }
 ]
 
 export const dummyShowsData = [

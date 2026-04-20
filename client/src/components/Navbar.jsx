@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
 import { MenuIcon, SearchIcon, TicketPlus, XIcon } from "lucide-react";
 import { useClerk, UserButton, useUser } from "@clerk/react";
+import { useAppContext } from "../context/AppContext";
 
 const Navbar = () => {
 
@@ -16,6 +17,9 @@ const Navbar = () => {
 
     // เพิ่มหน้า my bookinng ลงในโปรไฟล์
     const navigate = useNavigate();
+
+    // ถ้าไม่มีหนังงที่ชื่นชอบให้ซ่อนหน้า favorites
+    const { favoriteMovies } = useAppContext()
 
     return (
         <div className="fixed top-0 left-0 z-50 w-full flex items-center justify-between px-6 md:px-16 lg:px-36 py-5 ">
@@ -37,7 +41,7 @@ const Navbar = () => {
                 <Link onClick={() => {scrollTo(0,0); setIsOpen(false)}} to='/movies'>Movies</Link>
                 <Link onClick={() => {scrollTo(0,0); setIsOpen(false)}} to='/'>Theaters</Link>
                 <Link onClick={() => {scrollTo(0,0); setIsOpen(false)}} to='/'>Releases</Link>
-                <Link onClick={() => {scrollTo(0,0); setIsOpen(false)}} to='/favorite'>Favorites</Link>
+                {favoriteMovies.length > 0 &&  <Link onClick={() => {scrollTo(0,0); setIsOpen(false)}} to='/favorite'>Favorites</Link>}
             </div>
 
             <div className="flex items-center gap-8">
